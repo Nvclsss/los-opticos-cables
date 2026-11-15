@@ -6,9 +6,12 @@ En este repositorio se documenta el procedimiento técnico de conectorización y
 **Sede:** INACAP La Serena  
 **Unidad:** Unidad 2 - Infraestructura de redes de fibra óptica  
 **Nombre:** Nicolas Torres Parra
----
 
-## 1. Glosario Técnico Exprés
+## Objetivo General del Proyecto
+
+Diseñar, documentar e implementar de forma rigurosa un repositorio técnico en Git y manual en formato Markdown que evidencie el proceso completo de conectorización, preparación, limpieza de precisión, corte mecánico (cleaving) y termofusión por arco eléctrico en redes de fibra óptica monomodo; aplicando estrictamente los protocolos de seguridad industrial, el uso de elementos de protección personal (EPP) y la disposición adecuada de residuos de vidrio.
+
+## 1. Glosario Técnico 
 
 ### 1. Conceptos Fundamentales
 * **Núcleo:** Centro dieléctrico de la fibra de alto índice de refracción (típicamente 9 µm en monomodo) por donde se propaga la luz.
@@ -35,7 +38,7 @@ En este repositorio se documenta el procedimiento técnico de conectorización y
 > Los restos de fibra de vidrio cortada (astillas) son extremadamente peligrosos. Pueden penetrar la piel o ingresar al torrente sanguíneo si se ingieren o se introducen en los ojos.
 
 ## Herramientas e Instrumentos Utilizados
-**Elementos de Protección Personal (EPP):** guantes de seguridad, bototos de seguridad y chaquetilla para la prevención de impactos e ingreso de astillas de vidrio.
+**Elementos de Protección Personal (EPP):** guantes de seguridad, bototos de seguridad y chaquetilla para la prevención de impactos e ingreso de astillas de vidrio y también lentes de seguridad para cubrir de los pelos de fibra óptica y no dañar los ojos.
  **Pinza Peladora de Precisión (*Stripper*):** Herramienta de pelado de 3 posiciones para remover las cubiertas protectoras hasta exponer el hilo de vidrio de **125 micras** sin mellar la fibra.
 **Alcohol Isopropílico (99.9% de pureza):** Solvente para la eliminación de grasas, recubrimientos y residuos sobre el hilo de vidrio desnudo.
  **Paños Libres de Pelusa (*Kimwipes*):** Toallitas de precisión utilizadas en conjunto con el alcohol isopropílico para una limpieza profunda de la fibra.
@@ -45,6 +48,18 @@ En este repositorio se documenta el procedimiento técnico de conectorización y
 
 
 
+## 3. Preparación del Área de Trabajo y Seguridad
+
+La preparación adecuada del banco de trabajo y el cumplimiento de las normativas de seguridad son fundamentales para evitar contaminación en los hilos de fibra óptica y prevenir riesgos laborales.
+
+**Procedimiento de Preparación:**
+1. **Identificación:** Identificar el tipo de fibra y los materiales disponibles en el puesto.
+2. **Inspección de Instrumental:** Verificar el estado operativo y limpieza de las herramientas.
+3. **Orden del Banco:** Organizar los materiales e insumos sobre una superficie limpia y libre de polvo.
+4. **Gestión de Residuos:** Ubicar el contenedor rígido de residuos de fibra cerca del área de trabajo para el desecho inmediato de astillas[cite: 1].
+5. **Asignación de Roles:** Distribuir las funciones de forma individual o en equipo.
+
+> ⚠️ **ADVERTENCIA DE SEGURIDAD CRÍTICA:** Los restos de fibra de vidrio cortada son extremadamente peligrosos y pueden penetrar la piel o causar daños oculares. Utilice siempre EPP (lentes de seguridad) y deseche los residuos en contenedores rígidos.
 
 
 
@@ -52,10 +67,7 @@ En este repositorio se documenta el procedimiento técnico de conectorización y
 
 
 
-
-
-
-## 3. Guía Paso a Paso: Proceso de Conectorización y Termofusión
+## 4. Guía Paso a Paso: Proceso de Conectorización y Termofusión
 
 1. **Inserción del Protector Termo-contraíble:**
    🚫 ERROR COMÚN N° 1: Olvidar insertar el manguito termo-contraíble antes de realizar el corte y la fusión.
@@ -66,20 +78,23 @@ En este repositorio se documenta el procedimiento técnico de conectorización y
    🚫 ERROR COMÚN N° 2: Mellar o rayar el hilo de vidrio de 125 µm durante el uso de la pinza peladora.
    * Con la pinza peladora de precisión (*stripper*), remover la chaqueta exterior y el recubrimiento primario (250 µm / 900 µm) hasta exponer el vidrio desnudo de **125 micras** en una longitud aproximada de 30 a 40 mm, sin mellar el hilo de vidrio.
    
-  falta foto de el pelado de la fibra
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/07c6d35d-1a8f-4f07-ae12-a4d23784a229" />
+
 
 3. **Limpieza de Precisión:**
    🚫 ERROR COMÚN N° 3: Tocar el hilo de vidrio limpio con los dedos o reutilizar un paño sucio.
    *  Utilizar paños secos libres de pelusa (*Kimwipes*) humedecidos con **alcohol isopropílico de 99.9% de pureza**. Limpiar el hilo de vidrio desnudo con firmeza hasta escuchar el chirrido característico (*squeak*).
    
-  falta foto de la limpieza con alcohol
+  <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b804067a-b9dd-4314-b9d2-2ffdee1848d8" />
+
 
   
 4. **Corte de Precisión (Cleaving):**
    🚫 ERROR COMÚN N° 4: Realizar un corte con ángulo superior a 1° o con imperfecciones en el borde.
    * Colocar la fibra en la cortadora de precisión (*cleaver*) alineando la cubierta con la regla de medida (10 a 16 mm según especificación de la fusionadora). Realizar el corte logrando un ángulo perpendicular inferior a 1°.
-   
-   falta foto del corte de 90 grado
+  <img width="2853" height="2081" alt="IMG_20261112_151005" src="https://github.com/user-attachments/assets/3889e4d6-356b-41a4-88e4-674b60843d60" />
+
+
 
 5. **Proceso de Termofusión por Arco Eléctrico:**
    🚫 ERROR COMÚN N° 5: Apoyar el hilo de vidrio directamente sobre los electrodos o tener los V-grooves sucios.
@@ -87,36 +102,16 @@ En este repositorio se documenta el procedimiento técnico de conectorización y
    * Colocar los dos extremos de fibra sobre las guías en V (*V-grooves*) sin tocar los electrodos.
    * Cerrar la cubierta para iniciar el proceso automático de alineación de núcleos/cladding, descarga de arco de limpieza y descarga de fusión eléctrica.
    
-   falta foto de aliniacion 
+   <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/4ccb134f-2559-4ea2-88a9-fb4c239480ec" />
+
 
 6. **Protección del Empalme:**
    🚫 ERROR COMÚN N° 6: Tensionar o doblar la fibra desprotegida mientras se desliza el manguito hacia la fusión.
 
    * Deslizar el manguito termo-contraíble cubriendo el punto exacto de la fusión y ubicarlo en el horno integrado de la maquina para su contracción por calor.
    
-   !falta foto del termocontraible
-
----
-
-## 4. Análisis de Resultados y Presupuesto Óptico
-
-### Medición de Pérdidas y Verificación
-
-* **Pérdida Estimada por Fusionadora:** falta todavia eso
-
-foto de medicion
-
-### Tabla de Presupuesto Óptico Teórico (Enlace GPON)
-
-me falta medir 
+ <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/66629f8e-14ee-46d2-b779-5267d62d345a" />
 
 
 
-| Elemento | Cantidad / Longitud | Pérdida Unitaria Standard | Pérdida Total Estimada |
-| :--- | :---: | :---: | :---: |
-| **Fibra Monomodo (SM)** |  | 0| 0 |
-| **Conectores SC/APC** | 0 | 0 | 0 |
-| **Empalmes por Fusión** | 0 | 0 | 0 |
-| **Margen de Seguridad (GPON)** | 0 | 0| 0 |
-| **Pérdida Total del Enlace** | — | — | *0|
 
