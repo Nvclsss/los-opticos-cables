@@ -160,14 +160,14 @@ Pérdida Total = (Longitud × Atenuación de Fibra)
 | **Empalmes por fusión** | $2$ | $0,02 dB $ | $0,040 $ |
 | **Conectores LC/APC** | $4$ | $0,40 dB | $1,600  dB $ |
 | **Margen de seguridad** | — | — | $3,000 dB$ |
-| **PÉRDIDA TOTAL ESTIMADA** | — | — | **$5,515  dB $** |
+| **PÉRDIDA TOTAL ESTIMADA** | — | — | $5,515  dB $ |
 
 
 
 ### 6.3. Análisis de Viabilidad y Holgura
 
-* **Presupuesto disponible (SFP 1G LX): **$20,000 dB$
-* **Pérdida total calculada: ** $5,515 dB$
-* **Holgura óptica restante: ** $20,000 - 5,515 = 14,485 dB$
+* Presupuesto disponible (SFP 1G LX): $20,000 dB$
+* Pérdida total calculada:  $5,515 dB$
+* Holgura óptica restante:  $20,000 - 5,515 = 14,485 dB$
 
 > ✅ **Conclusión:** El enlace presenta una holgura favorable de $14,485 dB , lo que confirma que las pérdidas se encuentran muy por debajo del límite del transceptor, garantizando su viabilidad técnica.
