@@ -166,7 +166,7 @@ Pérdida Total = (Longitud × Atenuación de Fibra)
 
 ### 10.3. Análisis de Viabilidad y Holgura
 
-* **Presupuesto disponible (SFP 1G LX): ** $20,000 dB$
+* **Presupuesto disponible (SFP 1G LX): **$20,000 dB$
 * **Pérdida total calculada: ** $5,515 dB$
 * **Holgura óptica restante: ** $20,000 - 5,515 = 14,485 dB$
 
