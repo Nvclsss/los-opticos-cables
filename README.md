@@ -66,8 +66,7 @@ La preparación adecuada del banco de trabajo y el cumplimiento de las normativa
 
 
 
-
-## 4. Guía Paso a Paso: Proceso de Conectorización y Termofusión
+## 5. Guía Paso a Paso: Proceso de Conectorización y Termofusión
 
 1. **Inserción del Protector Termo-contraíble:**
    🚫 ERROR COMÚN N° 1: Olvidar insertar el manguito termo-contraíble antes de realizar el corte y la fusión.
@@ -114,4 +113,61 @@ La preparación adecuada del banco de trabajo y el cumplimiento de las normativa
 
 
 
+### 6.Medición y Verificación de la Fusión (Criterio 2.1.5)
 
+| Parámetro Evaluado | Valor Registrado / Estándar | Estado / Diagnóstico Técnico |
+| :--- | :---: | :--- |
+| **Tipo de Fibra** | Monomodo (SM) | Identificada correctamente en el perfil de la fusionadora. |
+| **Alineación de Núcleos** | Óptima (Ejes X / Y) | Sin desplazamiento lateral ni burbujas de aire en la unión. |
+| **Pérdida Estimada (Empalme)** | **0.02 dB** | **Aprobado / Excelente** (Muy inferior al límite máximo de 0.10 dB). |
+| **Calidad Física del Enlace** | Óptima | Continuidad verificada y baja atenuación garantizada. |
+
+> 📊 **Análisis Técnico de Verificación:** El equipo de termofusión registró una pérdida estimada de **0.02 dB** tras ejecutar la descarga de arco eléctrico. Dado que el estándar de la industria exige pérdidas iguales o inferiores para empalmes por fusión, se determina que el corte con el *cleaver* y la alineación de los núcleos fueron exitosos, asegurando la calidad y estabilidad del enlace óptico.
+
+
+
+
+
+
+
+
+
+## 10. 📊 Presupuesto Óptico del Enlace (Backbone de Campus)
+
+### 10.1. Fórmula y Parámetros
+La pérdida óptica total se determina mediante la siguiente expresión:
+
+Pérdida Total = (Longitud × Atenuación de Fibra)
+              + (N.º Empalmes × Pérdida por Empalme)
+              + (N.º Conectores × Pérdida por Conector)
+              + Margen de Seguridad
+
+| Elemento | Especificación / Valor de Referencia |
+| :--- | :--- |
+| **Fibra Óptica** | Monomodo OS2 (1310 nm) — $0,35\text{ dB/km}$ |
+| **Empalmes** | Fusión por arco — $0,02 dB$ *(Medición real)* |
+| **Conectores** | LC/APC — $0,40 dB $ |
+| **Margen de Seguridad** | Reserva operacional — $3,00 dB $ |
+| **Transceptor** | SFP 1G LX — Presupuesto disponible de $20,00 dB $ |
+
+---
+
+### 10.2. Tabla de Cálculo (Enlace de 2,5 km)
+
+| Componente | Cantidad / Magnitud | Pérdida Unitaria | Pérdida Total |
+| :--- | :---: | :---: | :---: |
+| **Fibra monomodo OS2** | $2,5 km}$ | $0,35 dB/km | $0,875  dB$ |
+| **Empalmes por fusión** | $2$ | $0,02 dB $ | $0,040 $ |
+| **Conectores LC/APC** | $4$ | $0,40 dB | $1,600  dB $ |
+| **Margen de seguridad** | — | — | $3,000 dB$ |
+| **PÉRDIDA TOTAL ESTIMADA** | — | — | **$5,515  dB $** |
+
+---
+
+### 10.3. Análisis de Viabilidad y Holgura
+
+* **Presupuesto disponible (SFP 1G LX):** $20,000 dB$
+* **Pérdida total calculada:** $5,515 dB$
+* **Holgura óptica restante:** $20,000 - 5,515 = 14,485 dB$
+
+> ✅ **Conclusión:** El enlace presenta una holgura favorable de **$14,485 dB **, lo que confirma que las pérdidas se encuentran muy por debajo del límite del transceptor, garantizando su **viabilidad técnica**.
