@@ -66,7 +66,7 @@ La preparación adecuada del banco de trabajo y el cumplimiento de las normativa
 
 
 
-## 5. Guía Paso a Paso: Proceso de Conectorización y Termofusión
+## 4. Guía Paso a Paso: Proceso de Conectorización y Termofusión
 
 1. **Inserción del Protector Termo-contraíble:**
    🚫 ERROR COMÚN N° 1: Olvidar insertar el manguito termo-contraíble antes de realizar el corte y la fusión.
@@ -113,7 +113,7 @@ La preparación adecuada del banco de trabajo y el cumplimiento de las normativa
 
 
 
-### 6.Medición y Verificación de la Fusión (Criterio 2.1.5)
+### 5.Medición y Verificación de la Fusión (Criterio 2.1.5)
 
 | Parámetro Evaluado | Valor Registrado / Estándar | Estado / Diagnóstico Técnico |
 | :--- | :---: | :--- |
@@ -132,9 +132,9 @@ La preparación adecuada del banco de trabajo y el cumplimiento de las normativa
 
 
 
-## 10. 📊 Presupuesto Óptico del Enlace (Backbone de Campus)
+## 6. 📊 Presupuesto Óptico del Enlace (Backbone de Campus)
 
-### 10.1. Fórmula y Parámetros
+### 6.1. Fórmula y Parámetros
 La pérdida óptica total se determina mediante la siguiente expresión:
 
 Pérdida Total = (Longitud × Atenuación de Fibra)
@@ -152,7 +152,7 @@ Pérdida Total = (Longitud × Atenuación de Fibra)
 
 
 
-### 10.2. Tabla de Cálculo (Enlace de 2,5 km)
+### 6.2. Tabla de Cálculo (Enlace de 2,5 km)
 
 | Componente | Cantidad / Magnitud | Pérdida Unitaria | Pérdida Total |
 | :--- | :---: | :---: | :---: |
@@ -164,10 +164,10 @@ Pérdida Total = (Longitud × Atenuación de Fibra)
 
 
 
-### 10.3. Análisis de Viabilidad y Holgura
+### 6.3. Análisis de Viabilidad y Holgura
 
 * **Presupuesto disponible (SFP 1G LX): **$20,000 dB$
 * **Pérdida total calculada: ** $5,515 dB$
 * **Holgura óptica restante: ** $20,000 - 5,515 = 14,485 dB$
 
-> ✅ **Conclusión:** El enlace presenta una holgura favorable de **$14,485 dB **, lo que confirma que las pérdidas se encuentran muy por debajo del límite del transceptor, garantizando su **viabilidad técnica**.
+> ✅ **Conclusión:** El enlace presenta una holgura favorable de $14,485 dB , lo que confirma que las pérdidas se encuentran muy por debajo del límite del transceptor, garantizando su viabilidad técnica.
